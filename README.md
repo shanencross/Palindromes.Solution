@@ -23,7 +23,7 @@ To install locally:
 * Navigate to this local directory in your terminal
 * Navigate to the _/Palindromes.Test_ folder in your terminal
 * Enter _dotnet restore_ to install testing packages
-* Navigate to the _Palindromes_ folder in your terminal
+* Navigate to the _/Palindromes_ folder in your terminal
 * Enter _dotnet run_ to build and run the program
 
 ## Known Bugs
