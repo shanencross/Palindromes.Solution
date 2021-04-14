@@ -1,8 +1,19 @@
+using System;
 namespace Palindromes.Models {
-  class Palindrome {
+  public class Palindrome {
     public static bool IsPalindrome(string input) 
     {
-      return false;
+      for (int i = 0; i < (input.Length / 2); i++) 
+      {
+        char charFromStart = input[i];
+        char charFromEnd = input[input.Length - 1 - i];
+
+        if (charFromStart != charFromEnd)
+        {
+          return false;
+        }
+      }
+      return true;
     }
   }
 }
